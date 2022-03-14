@@ -1,0 +1,28 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css"> 
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Fredoka&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Fredoka&family=Lato&display=swap" rel="stylesheet">
+   <title>Musify</title>
+</head>
+<body>
+    <button id="logout" onclick="logout()">Logout</button>
+    <center> 
+        <h1>Musify</h1>
+        <h3>Your added songs will be displayed here! Click on the song names to be redirected to another screen! Note: You can add up to 29 songs in the playlist. View our <a onclick="library()" id="redirect">music library</a> to listen to available songs. </h3>
+        <br>
+        <br>
+        <div id="div_list"></div>
+
+    </center>
+    <script src="addsongs.js"></script>
+</body>
+</html>

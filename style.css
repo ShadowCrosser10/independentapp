@@ -1,0 +1,81 @@
+h1  {
+    font-size: 60px;
+}
+
+h3  {
+    font-family: 'Cinzel', serif;
+    font-family: 'Fredoka', sans-serif;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+}
+
+.logo {
+    margin-top: 30px;
+    border-radius: 40px;
+}
+
+body {
+    background-color: teal;
+    font-family: 'Cinzel', serif;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+}
+
+.login_div {
+	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+}
+
+#login_btn {
+    
+	width: 12%;
+    height: 8%;
+    font-size: 25px;
+    border-radius: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightblue;
+    margin-bottom: 20px;
+
+}
+
+input {
+   
+    font-size: 20px;
+
+}
+
+#enterplaylist {
+   
+    font-size: 20px;
+
+}
+
+
+button {
+    width: 12%;
+    height: 8%;
+    font-size: 25px;
+    border-radius: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightblue;
+    margin-bottom: 20px;
+}
+#label1 {
+    margin-bottom: 10px;
+}
+
+#output_div {
+    text-align: left; 
+    margin-bottom: 70px; 
+}
+
+.song_names {
+    display: inline-block;
+}
+
+#redirect {
+    color: blue; 
+    
+}

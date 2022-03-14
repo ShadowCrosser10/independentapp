@@ -1,0 +1,36 @@
+<html>
+<head>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Fredoka&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Fredoka&family=Lato&display=swap" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <title>Musify</title>
+</head>
+<body>
+    <div class="container">
+        <button id="logout" onclick="logout()">Logout</button>
+            <center>
+                <h1 class="header"> Musify </h1>
+                <h3 class="color_white" id="welcome_user"></h3>
+                <div class="form-group create_playlist">
+                    <label id="label1">Create Playlist:</label>
+                    <br>
+                    <input type="text" id="enterplaylist" class="form-control" placeholder="Enter your playlist name... ">
+                </div>
+                <br> 
+                <br>
+                <button class="playlist" onclick="addplaylist()">Add Playlist</button>
+                <h3 class="color_white">#TRENDINGPLAYLISTS</h3>
+                <div id="trendingplaylists"></div>
+            
+            </center>
+        </div>
+        <script src="playlists.js"></script>
+</body>
+</html>
